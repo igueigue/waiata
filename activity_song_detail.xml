@@ -8,6 +8,9 @@
     android:weightSum="10"
     android:background="@drawable/gradient_bg"
     android:orientation="vertical">
+    
+     <!--THIS IS THE 2ND SCREEN>
+            
 
     <LinearLayout
         android:orientation="vertical"
