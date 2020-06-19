@@ -5,10 +5,16 @@ import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.GridLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import static com.example.waiata.Adapter.EXTRA_IMG;
+import static com.example.waiata.Adapter.EXTRA_TITLE;
+
 
 public class SongDetail extends AppCompatActivity {
 
@@ -20,16 +26,20 @@ public class SongDetail extends AppCompatActivity {
         setContentView(R.layout.activity_song_detail);
 
         Intent intent = getIntent();
-        String textTitle = intent.getStringExtra(Adapter.EXTRA_TITLE);
-        String desc = intent.getStringExtra(Adapter.EXTRA_DESC);
+        int src_Title = intent.getIntExtra(EXTRA_TITLE,0);
+        int src_Image = intent.getIntExtra(EXTRA_IMG,0);
 
-        TextView textView1 = findViewById(R.id.songTitle);
+
+        TextView textViewTitle = findViewById(R.id.songTitle);
+        ImageView imgViewTitle = findViewById(R.id.imageView_song);
         //TextView textView2 = findViewById(R.id.textView2);
 
-        textView1.setText(textTitle);
+        textViewTitle.setText(src_Title);
+        imgViewTitle.setImageResource(src_Image);
 
         mainGrid = findViewById(R.id.mainGrid);
         setSingleEvent(mainGrid);
+
 
     }
 
