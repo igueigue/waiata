@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Waiata</string>
+   <!-- //SONG 1-->
+    <string name="title_tuti">Tutira mai nga</string>
+    <string name="elyrics_tuti">Line up together people\nAll of us, all of us\nStand in rows people\nAll of us, all of us\nSeek after knowledge\nand love of others - everyone\nThink as one\nAct as one\nAll of us, all of us\n\n
+            All of us, All of us!!\nHi aue hei !!!</string>
+    <string name="mlyrics_tuti">Tūtira mai ngā iwi,\ntātou tātou e\nTūtira mai ngā iwi,\ntātou tātou e\nWhai-a te marama-tanga,\nme te aroha - e ngā iwi!\n
+            Ki-a ko tapa tahi,\n Ki-a ko-tahi rā\n Tātou tātou e\n(Repeat)\n\nTā-tou tā-tou e E!!\n
+            Hi aue hei !!!</string>
+    <string name="desc_tuti">Wi Huata wrote this song and taught it to this children whilst on a family gathering to lake Tutira, north of Napier.He was explaing how the iwi came together here to support each other.
+        Later he used this song to promote Moral Re-armament, uniting different cultures.</string>
+
+    <!-- //SONG 2-->
+    <string name="title_waikato">Waikato Te Awa</string>
+    <string name="elyrics_waikato">The river is Waikato\nGrab it, squeeze the juice for yourself\nGrab some water for yourself
+            \nIt heads to the Gulf of Waikato\nThe river; bending down, monsters\nIt\'s a monster, a monster\nBe careful not to turn around\nWaikato was strong\nKeep your eyes on the distance\nTaupiri is the mountain\nPeople are equal\nThe national identity e
+            \nTake your boat to Ngaruawahia\nLegacy for the whole world\nMatutaera\'s last fertilizer
+            \nOh sorry</string>
+    <string name="mlyrics_waikato">Waikato te awa\nKatohia, katohia he wai māu\nKatohia he wai māu
+            Ka eke ki Te Pūaha o Waikato\nTe awa; he piko, he taniwha\nHe piko, he taniwha
+            \nKia tūpato rā kei tahuri koe\nI ngā au kaha o Waikato\nWhakamau tō titiro ki tawhiti rā\nKo Taupiri te maunga\nPōtatau te tangata\nTe mauri o te motu e\nE hoe tō waka ki Ngāruawāhia
+            \nTūrangawaewae mō te ao katoa\nTe tongi whakamutunga a Matutaera
+            \nAuē hoki auē</string>
+    <string name="desc_waikato">Mr Harrison, the author of this poem, writes that \'When working on the different hydro works on the Waikato River,
+            I spent quite a few hours of leisure, marvelling at the greatness of the dams and lakes formed on this waterway.
+            So, in my spare time i made up this poetry about the Waikato River\'.\n\n
+
+            This was published in the historical Te Ao Hou magazine in June 1962, issue 29. Over the years, there have been slight adjustments
+            to the poem to suit the context of todays\'s communities. Wintec only sings the first three verses.</string>
+
+
+
+
+
+
+</resources>
