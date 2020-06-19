@@ -18,17 +18,32 @@ public class MainActivity extends AppCompatActivity {
     Integer[] colors = null;
     ArgbEvaluator argbEvaluator = new ArgbEvaluator();
 
+
+
+    private List<Song> songList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        DBHelper dbHelper = new DBHelper(this);
+        songList = dbHelper.getAllSongTitles();
+
+
         models = new ArrayList<>();
-        models.add(new Model(R.drawable.brochure, "Brochure","This is the desc"));
+
+
+        for (int i = 0; i < songList.size() ; i++) {
+            models.add(new Model(songList.get(i).getImgPath(), songList.get(i).getTitle(),songList.get(i).getDesc()));
+        }
+
+       /* models.add(new Model(R.drawable.brochure, "Brochure","This is the desc"));
         models.add(new Model(R.drawable.sticker, "sticker","This is the sticker"));
         models.add(new Model(R.drawable.poster, "poster","This is the poster"));
         models.add(new Model(R.drawable.namecard, "namecard","This is the namecard"));
-
+*/
         adapter = new Adapter(models,this);
 
         viewPager = findViewById(R.id.viewPager);
@@ -62,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
 
                 }
             }
+
+
+
 
             @Override
             public void onPageSelected(int position) {
